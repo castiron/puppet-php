@@ -144,7 +144,6 @@ define php::version(
         Package['autoconf'],
         Package['boxen/brews/autoconf213'],
         Package['openssl'],
-        Package['curl'],
       ],
       notify            => Exec["phpenv-rehash-post-install-${patch_version}"],
       configure_params  => $configure_params,
