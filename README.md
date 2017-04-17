@@ -8,7 +8,6 @@ Requires the following boxen modules:
 * `homebrew`
 * `stdlib`
 * `wget`
-* `autoconf`
 * `libtool`
 * `pkgconfig`
 * `pcre`
@@ -16,6 +15,10 @@ Requires the following boxen modules:
 * `mysql`
 * `openssl`
 * `curl`
+
+Requires the following installed via Brewcask (e.g. add to your `boxen` installation at `hiera/common.yaml`):
+
+* `autoconf`
 
 The following boxen modules are required if optional PHP extensions are used:
 

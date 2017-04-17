@@ -10,10 +10,11 @@
 class php {
   require php::config
 
+  # TODO: Remove all these and replace with a dependency on Brewcask/Boxen
+  # https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
   require homebrew
   include wget
   include stdlib
-  include autoconf
   include libtool
   include pkgconfig
   include pcre
