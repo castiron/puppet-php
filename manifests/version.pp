@@ -140,6 +140,7 @@ define php::version(
         Package['jpeg'],
         Package['libpng'],
         Package['mcrypt'],
+        Package['bzip2'],
         Package['boxen/brews/zlibphp'],
         Package['autoconf'],
         Package['boxen/brews/autoconf213'],

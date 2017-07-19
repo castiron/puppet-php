@@ -256,6 +256,7 @@ Puppet::Type.type(:php_version).provide(:php_source) do
       "--with-kerberos=/usr",
       "--with-xsl=/usr",
       "--with-gd",
+      "--with-bz2=#{@resource[:homebrew_path]}/opt/bzip2",
       "--enable-gd-native-ttf",
       "--with-freetype-dir=#{@resource[:homebrew_path]}/opt/freetypephp",
       "--with-jpeg-dir=#{@resource[:homebrew_path]}/opt/jpeg",
