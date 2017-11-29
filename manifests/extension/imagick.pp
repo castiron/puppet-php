@@ -12,7 +12,6 @@ define php::extension::imagick(
   $version = '3.4.3'
 ) {
   require php::config
-  require imagemagick
 
   # Require php version eg. php::5_4_10
   # This will compile, install and set up config dirs if not present
